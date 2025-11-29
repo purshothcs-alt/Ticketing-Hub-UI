@@ -1,0 +1,10 @@
+import { baseurl } from "../../../apiconfig";
+export const DROPDOWNSBASEURL = `${baseurl}Dropdown/`;
+export const GET_DEPARTMENTS = `${DROPDOWNSBASEURL}departments`;
+export const GET_STATUSES = `${DROPDOWNSBASEURL}statuses`;
+export const GET_ROLES= `${DROPDOWNSBASEURL}roles`;
+export const GET_MANAGERS= `${DROPDOWNSBASEURL}users`; 
+export const CATEGORY_DROPDOWN= `${DROPDOWNSBASEURL}categories`; 
+export const GET_PRIORITIES = `${DROPDOWNSBASEURL}priorities`;
+export const GET_TICKET_TYPES = `${DROPDOWNSBASEURL}Ticket-Type`;
+export const GET_SUBCATEGORIES = `${DROPDOWNSBASEURL}subcategories`;
